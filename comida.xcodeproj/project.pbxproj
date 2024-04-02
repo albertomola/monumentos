@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D39BCD952BBC44DF0017D9E3 /* comidaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39BCD942BBC44DF0017D9E3 /* comidaApp.swift */; };
+		D39BCD972BBC44E00017D9E3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39BCD962BBC44DF0017D9E3 /* ContentView.swift */; };
+		D39BCD992BBC44E20017D9E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D39BCD982BBC44E20017D9E3 /* Assets.xcassets */; };
+		D39BCD9C2BBC44E20017D9E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D39BCD9B2BBC44E20017D9E3 /* Preview Assets.xcassets */; };
+		D39BCDA62BBC44E30017D9E3 /* comidaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39BCDA52BBC44E30017D9E3 /* comidaTests.swift */; };
+		D39BCDB02BBC44E30017D9E3 /* comidaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39BCDAF2BBC44E30017D9E3 /* comidaUITests.swift */; };
+		D39BCDB22BBC44E30017D9E3 /* comidaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39BCDB12BBC44E30017D9E3 /* comidaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D39BCDA22BBC44E30017D9E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D39BCD892BBC44DF0017D9E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D39BCD902BBC44DF0017D9E3;
+			remoteInfo = comida;
+		};
+		D39BCDAC2BBC44E30017D9E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D39BCD892BBC44DF0017D9E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D39BCD902BBC44DF0017D9E3;
+			remoteInfo = comida;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D39BCD912BBC44DF0017D9E3 /* comida.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = comida.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D39BCD942BBC44DF0017D9E3 /* comidaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = comidaApp.swift; sourceTree = "<group>"; };
+		D39BCD962BBC44DF0017D9E3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D39BCD982BBC44E20017D9E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D39BCD9B2BBC44E20017D9E3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D39BCDA12BBC44E30017D9E3 /* comidaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = comidaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D39BCDA52BBC44E30017D9E3 /* comidaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = comidaTests.swift; sourceTree = "<group>"; };
+		D39BCDAB2BBC44E30017D9E3 /* comidaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = comidaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D39BCDAF2BBC44E30017D9E3 /* comidaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = comidaUITests.swift; sourceTree = "<group>"; };
+		D39BCDB12BBC44E30017D9E3 /* comidaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = comidaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D39BCD8E2BBC44DF0017D9E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D39BCD9E2BBC44E30017D9E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D39BCDA82BBC44E30017D9E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D39BCD882BBC44DF0017D9E3 = {
+			isa = PBXGroup;
+			children = (
+				D39BCD932BBC44DF0017D9E3 /* comida */,
+				D39BCDA42BBC44E30017D9E3 /* comidaTests */,
+				D39BCDAE2BBC44E30017D9E3 /* comidaUITests */,
+				D39BCD922BBC44DF0017D9E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D39BCD922BBC44DF0017D9E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D39BCD912BBC44DF0017D9E3 /* comida.app */,
+				D39BCDA12BBC44E30017D9E3 /* comidaTests.xctest */,
+				D39BCDAB2BBC44E30017D9E3 /* comidaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D39BCD932BBC44DF0017D9E3 /* comida */ = {
+			isa = PBXGroup;
+			children = (
+				D39BCD942BBC44DF0017D9E3 /* comidaApp.swift */,
+				D39BCD962BBC44DF0017D9E3 /* ContentView.swift */,
+				D39BCD982BBC44E20017D9E3 /* Assets.xcassets */,
+				D39BCD9A2BBC44E20017D9E3 /* Preview Content */,
+			);
+			path = comida;
+			sourceTree = "<group>";
+		};
+		D39BCD9A2BBC44E20017D9E3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D39BCD9B2BBC44E20017D9E3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D39BCDA42BBC44E30017D9E3 /* comidaTests */ = {
+			isa = PBXGroup;
+			children = (
+				D39BCDA52BBC44E30017D9E3 /* comidaTests.swift */,
+			);
+			path = comidaTests;
+			sourceTree = "<group>";
+		};
+		D39BCDAE2BBC44E30017D9E3 /* comidaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D39BCDAF2BBC44E30017D9E3 /* comidaUITests.swift */,
+				D39BCDB12BBC44E30017D9E3 /* comidaUITestsLaunchTests.swift */,
+			);
+			path = comidaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D39BCD902BBC44DF0017D9E3 /* comida */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D39BCDB52BBC44E30017D9E3 /* Build configuration list for PBXNativeTarget "comida" */;
+			buildPhases = (
+				D39BCD8D2BBC44DF0017D9E3 /* Sources */,
+				D39BCD8E2BBC44DF0017D9E3 /* Frameworks */,
+				D39BCD8F2BBC44DF0017D9E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = comida;
+			productName = comida;
+			productReference = D39BCD912BBC44DF0017D9E3 /* comida.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D39BCDA02BBC44E30017D9E3 /* comidaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D39BCDB82BBC44E30017D9E3 /* Build configuration list for PBXNativeTarget "comidaTests" */;
+			buildPhases = (
+				D39BCD9D2BBC44E30017D9E3 /* Sources */,
+				D39BCD9E2BBC44E30017D9E3 /* Frameworks */,
+				D39BCD9F2BBC44E30017D9E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D39BCDA32BBC44E30017D9E3 /* PBXTargetDependency */,
+			);
+			name = comidaTests;
+			productName = comidaTests;
+			productReference = D39BCDA12BBC44E30017D9E3 /* comidaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D39BCDAA2BBC44E30017D9E3 /* comidaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D39BCDBB2BBC44E30017D9E3 /* Build configuration list for PBXNativeTarget "comidaUITests" */;
+			buildPhases = (
+				D39BCDA72BBC44E30017D9E3 /* Sources */,
+				D39BCDA82BBC44E30017D9E3 /* Frameworks */,
+				D39BCDA92BBC44E30017D9E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D39BCDAD2BBC44E30017D9E3 /* PBXTargetDependency */,
+			);
+			name = comidaUITests;
+			productName = comidaUITests;
+			productReference = D39BCDAB2BBC44E30017D9E3 /* comidaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D39BCD892BBC44DF0017D9E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					D39BCD902BBC44DF0017D9E3 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					D39BCDA02BBC44E30017D9E3 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = D39BCD902BBC44DF0017D9E3;
+					};
+					D39BCDAA2BBC44E30017D9E3 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = D39BCD902BBC44DF0017D9E3;
+					};
+				};
+			};
+			buildConfigurationList = D39BCD8C2BBC44DF0017D9E3 /* Build configuration list for PBXProject "comida" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D39BCD882BBC44DF0017D9E3;
+			productRefGroup = D39BCD922BBC44DF0017D9E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D39BCD902BBC44DF0017D9E3 /* comida */,
+				D39BCDA02BBC44E30017D9E3 /* comidaTests */,
+				D39BCDAA2BBC44E30017D9E3 /* comidaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D39BCD8F2BBC44DF0017D9E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D39BCD9C2BBC44E20017D9E3 /* Preview Assets.xcassets in Resources */,
+				D39BCD992BBC44E20017D9E3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D39BCD9F2BBC44E30017D9E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D39BCDA92BBC44E30017D9E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D39BCD8D2BBC44DF0017D9E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D39BCD972BBC44E00017D9E3 /* ContentView.swift in Sources */,
+				D39BCD952BBC44DF0017D9E3 /* comidaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D39BCD9D2BBC44E30017D9E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D39BCDA62BBC44E30017D9E3 /* comidaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D39BCDA72BBC44E30017D9E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D39BCDB02BBC44E30017D9E3 /* comidaUITests.swift in Sources */,
+				D39BCDB22BBC44E30017D9E3 /* comidaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D39BCDA32BBC44E30017D9E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D39BCD902BBC44DF0017D9E3 /* comida */;
+			targetProxy = D39BCDA22BBC44E30017D9E3 /* PBXContainerItemProxy */;
+		};
+		D39BCDAD2BBC44E30017D9E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D39BCD902BBC44DF0017D9E3 /* comida */;
+			targetProxy = D39BCDAC2BBC44E30017D9E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D39BCDB32BBC44E30017D9E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D39BCDB42BBC44E30017D9E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D39BCDB62BBC44E30017D9E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"comida/Preview Content\"";
+				DEVELOPMENT_TEAM = 4XY3UWP6VF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alberto.comida;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D39BCDB72BBC44E30017D9E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"comida/Preview Content\"";
+				DEVELOPMENT_TEAM = 4XY3UWP6VF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alberto.comida;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D39BCDB92BBC44E30017D9E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4XY3UWP6VF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alberto.comidaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/comida.app/comida";
+			};
+			name = Debug;
+		};
+		D39BCDBA2BBC44E30017D9E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4XY3UWP6VF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alberto.comidaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/comida.app/comida";
+			};
+			name = Release;
+		};
+		D39BCDBC2BBC44E30017D9E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4XY3UWP6VF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alberto.comidaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = comida;
+			};
+			name = Debug;
+		};
+		D39BCDBD2BBC44E30017D9E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4XY3UWP6VF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alberto.comidaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = comida;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D39BCD8C2BBC44DF0017D9E3 /* Build configuration list for PBXProject "comida" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D39BCDB32BBC44E30017D9E3 /* Debug */,
+				D39BCDB42BBC44E30017D9E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D39BCDB52BBC44E30017D9E3 /* Build configuration list for PBXNativeTarget "comida" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D39BCDB62BBC44E30017D9E3 /* Debug */,
+				D39BCDB72BBC44E30017D9E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D39BCDB82BBC44E30017D9E3 /* Build configuration list for PBXNativeTarget "comidaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D39BCDB92BBC44E30017D9E3 /* Debug */,
+				D39BCDBA2BBC44E30017D9E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D39BCDBB2BBC44E30017D9E3 /* Build configuration list for PBXNativeTarget "comidaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D39BCDBC2BBC44E30017D9E3 /* Debug */,
+				D39BCDBD2BBC44E30017D9E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D39BCD892BBC44DF0017D9E3 /* Project object */;
+}
