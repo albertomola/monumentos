@@ -14,6 +14,12 @@
 		D39BCDA62BBC44E30017D9E3 /* comidaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39BCDA52BBC44E30017D9E3 /* comidaTests.swift */; };
 		D39BCDB02BBC44E30017D9E3 /* comidaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39BCDAF2BBC44E30017D9E3 /* comidaUITests.swift */; };
 		D39BCDB22BBC44E30017D9E3 /* comidaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39BCDB12BBC44E30017D9E3 /* comidaUITestsLaunchTests.swift */; };
+		D39BCDC12BBC58330017D9E3 /* pedido.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39BCDC02BBC58330017D9E3 /* pedido.swift */; };
+		D39BCDC32BBC59DE0017D9E3 /* helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39BCDC22BBC59DE0017D9E3 /* helper.swift */; };
+		D39BCDC52BBC5C1C0017D9E3 /* DatosComida.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39BCDC42BBC5C1C0017D9E3 /* DatosComida.swift */; };
+		D39BCDC72BBC5E810017D9E3 /* Comida.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39BCDC62BBC5E810017D9E3 /* Comida.swift */; };
+		D39BCDC92BBC68E70017D9E3 /* detalleComida.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39BCDC82BBC68E70017D9E3 /* detalleComida.swift */; };
+		D3A704D82BC6CD1900618E52 /* VistaMonumento.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A704D72BC6CD1900618E52 /* VistaMonumento.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,12 @@
 		D39BCDAB2BBC44E30017D9E3 /* comidaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = comidaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D39BCDAF2BBC44E30017D9E3 /* comidaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = comidaUITests.swift; sourceTree = "<group>"; };
 		D39BCDB12BBC44E30017D9E3 /* comidaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = comidaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D39BCDC02BBC58330017D9E3 /* pedido.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pedido.swift; sourceTree = "<group>"; };
+		D39BCDC22BBC59DE0017D9E3 /* helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helper.swift; sourceTree = "<group>"; };
+		D39BCDC42BBC5C1C0017D9E3 /* DatosComida.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatosComida.swift; sourceTree = "<group>"; };
+		D39BCDC62BBC5E810017D9E3 /* Comida.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comida.swift; sourceTree = "<group>"; };
+		D39BCDC82BBC68E70017D9E3 /* detalleComida.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detalleComida.swift; sourceTree = "<group>"; };
+		D3A704D72BC6CD1900618E52 /* VistaMonumento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VistaMonumento.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +110,12 @@
 				D39BCD962BBC44DF0017D9E3 /* ContentView.swift */,
 				D39BCD982BBC44E20017D9E3 /* Assets.xcassets */,
 				D39BCD9A2BBC44E20017D9E3 /* Preview Content */,
+				D39BCDC02BBC58330017D9E3 /* pedido.swift */,
+				D3A704D72BC6CD1900618E52 /* VistaMonumento.swift */,
+				D39BCDC22BBC59DE0017D9E3 /* helper.swift */,
+				D39BCDC42BBC5C1C0017D9E3 /* DatosComida.swift */,
+				D39BCDC62BBC5E810017D9E3 /* Comida.swift */,
+				D39BCDC82BBC68E70017D9E3 /* detalleComida.swift */,
 			);
 			path = comida;
 			sourceTree = "<group>";
@@ -257,8 +275,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3A704D82BC6CD1900618E52 /* VistaMonumento.swift in Sources */,
 				D39BCD972BBC44E00017D9E3 /* ContentView.swift in Sources */,
+				D39BCDC12BBC58330017D9E3 /* pedido.swift in Sources */,
+				D39BCDC92BBC68E70017D9E3 /* detalleComida.swift in Sources */,
+				D39BCDC72BBC5E810017D9E3 /* Comida.swift in Sources */,
+				D39BCDC52BBC5C1C0017D9E3 /* DatosComida.swift in Sources */,
 				D39BCD952BBC44DF0017D9E3 /* comidaApp.swift in Sources */,
+				D39BCDC32BBC59DE0017D9E3 /* helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
